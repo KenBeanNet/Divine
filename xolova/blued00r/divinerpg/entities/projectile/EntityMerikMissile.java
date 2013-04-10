@@ -17,9 +17,8 @@ import net.minecraft.util.MathHelper;
 import net.minecraft.util.MovingObjectPosition;
 import net.minecraft.util.Vec3;
 import net.minecraft.world.World;
-import xolova.blued00r.divinerpg.client.particles.EntityFireFX;
 
-public class EntityMerikMissile extends EntityThrowable implements IProjectile
+public class EntityMerikMissile extends EntityThrowable
 {
     private int xTile = -1;
     private int yTile = -1;
@@ -331,8 +330,8 @@ public class EntityMerikMissile extends EntityThrowable implements IProjectile
 
         for (var7 = 0; var7 < 1; ++var7)
         {
-            EntityFireFX var19 = new EntityFireFX(this.worldObj, this.posX, this.posY, this.posZ, 0.0D, 0.0D, 0.0D);
-            FMLClientHandler.instance().getClient().effectRenderer.addEffect(var19, var19);
+            //EntityFireFX var19 = new EntityFireFX(this.worldObj, this.posX, this.posY, this.posZ, 0.0D, 0.0D, 0.0D);
+            //FMLClientHandler.instance().getClient().effectRenderer.addEffect(var19, var19);
         }
 
         this.motionX *= (double)var17;

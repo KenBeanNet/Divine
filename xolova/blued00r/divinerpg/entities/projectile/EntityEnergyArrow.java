@@ -10,6 +10,7 @@ import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.monster.EntityEnderman;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.network.packet.Packet70GameEvent;
@@ -480,22 +481,20 @@ public class EntityEnergyArrow extends Entity
      */
     public void onCollideWithPlayer(EntityPlayer var1)
     {
-        if (!this.worldObj.isRemote && this.inGround && this.arrowShake <= 0)
+    	if (!this.worldObj.isRemote && this.inGround && this.arrowShake <= 0)
         {
-            boolean var10000;
-
-            if (this.canBePickedUp != 1 && (this.canBePickedUp != 2 || !var1.capabilities.isCreativeMode))
-            {
-                var10000 = false;
-            }
-            else
-            {
-                var10000 = true;
-            }
+            boolean var2 = this.canBePickedUp == 1 || this.canBePickedUp == 2 && var1.capabilities.isCreativeMode;
 
             if (this.canBePickedUp == 1 && !var1.inventory.addItemStackToInventory(new ItemStack(DivineRPG.azuriteArrow, 1)))
             {
-                boolean var2 = false;
+                var2 = false;
+            }
+
+            if (var2)
+            {
+                this.worldObj.playSoundAtEntity(this, "random.pop", 0.2F, ((this.rand.nextFloat() - this.rand.nextFloat()) * 0.7F + 1.0F) * 2.0F);
+                var1.onItemPickup(this, 1);
+                this.setDead();
             }
         }
     }

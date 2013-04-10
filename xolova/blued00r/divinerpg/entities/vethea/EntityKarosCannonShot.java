@@ -32,6 +32,6 @@ public class EntityKarosCannonShot extends EntityArrow
     public void onUpdate()
     {
         super.onUpdate();
-        this.setVelocity(this.motionX, 0.0D, this.motionZ);
+        //this.setVelocity(this.motionX, 0.0D, this.motionZ);
     }
 }

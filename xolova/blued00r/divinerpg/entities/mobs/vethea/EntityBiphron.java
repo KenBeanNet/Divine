@@ -65,7 +65,7 @@ public class EntityBiphron extends EntityMob
 
         if (this.gravMove)
         {
-            this.setVelocity(this.motionX, 0.4D, this.motionZ);
+            //this.setVelocity(this.motionX, 0.4D, this.motionZ);
         }
     }
 

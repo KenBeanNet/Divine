@@ -125,7 +125,7 @@ public class EntitySpinebackWormBody extends EntityMob
         else if (this.spawnTick > 0)
         {
             --this.spawnTick;
-            this.setVelocity(0.0D, 0.0D, 0.0D);
+            //this.setVelocity(0.0D, 0.0D, 0.0D);
             this.moveMod = 0;
         }
 

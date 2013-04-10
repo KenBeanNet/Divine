@@ -1,11 +1,14 @@
 package xolova.blued00r.divinerpg.entities.vethea;
 
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.projectile.EntityThrowable;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.DamageSource;
+import net.minecraft.util.MathHelper;
 import net.minecraft.util.MovingObjectPosition;
 import net.minecraft.world.World;
 
@@ -46,11 +49,11 @@ public class EntityDisk extends EntityThrowable
     public void onUpdate()
     {
         super.onUpdate();
-        this.setVelocity(this.motionX / 0.99D, this.motionY / 0.99D, this.motionZ / 0.99D);
+        //setVelocity(this.motionX / 0.99D, this.motionY / 0.99D, this.motionZ / 0.99D);
 
         if (this.counter == 0 && !this.rebound && this.thrower != null && this.collideCounter == 0)
         {
-            this.setVelocity(-this.motionX, -this.motionY, -this.motionZ);
+            //setVelocity(-this.motionX, -this.motionY, -this.motionZ);
             this.rebound = true;
             this.collideCounter = 5;
         }

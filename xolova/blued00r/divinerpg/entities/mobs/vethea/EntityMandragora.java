@@ -60,7 +60,7 @@ public class EntityMandragora extends EntityMob implements IRangedAttackMob
     public void onLivingUpdate()
     {
         super.onLivingUpdate();
-        this.setVelocity(this.motionX, 0.4D, this.motionZ);
+        //this.setVelocity(this.motionX, 0.4D, this.motionZ);
     }
 
     /**
