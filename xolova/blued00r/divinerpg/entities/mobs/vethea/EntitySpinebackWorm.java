@@ -32,7 +32,7 @@ public class EntitySpinebackWorm extends EntityMob
         this.targetTasks.addTask(2, new EntityAIHurtByTarget(this, true));
         this.noClip = true;
         this.attack = false;
-        System.out.println(this.entityId);
+        //System.out.println(this.entityId);
         EntitySpinebackWormBody var2 = new EntitySpinebackWormBody(this.worldObj, this, 0);
         var2.setLocationAndAngles(this.posX, this.posY, this.posZ, this.rotationYaw, this.rotationPitch);
         this.worldObj.spawnEntityInWorld(var2);

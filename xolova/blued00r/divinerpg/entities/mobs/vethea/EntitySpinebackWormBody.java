@@ -35,8 +35,8 @@ public class EntitySpinebackWormBody extends EntityMob
     {
         this(var1);
         this.head = var2;
-        System.out.print(this.entityId);
-        System.out.println(var3);
+        //System.out.print(this.entityId);
+        //System.out.println(var3);
         this.setAttackTarget(var2);
         this.peiceNum = var3;
 

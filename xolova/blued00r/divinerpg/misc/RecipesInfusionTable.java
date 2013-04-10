@@ -35,15 +35,6 @@ public class RecipesInfusionTable
         addRecipe(DivineRPG.karosLump.itemID, DivineRPG.vetheanClawTemplate.itemID, 16, new ItemStack(DivineRPG.karosClaw));
         addRecipe(DivineRPG.heliosisLump.itemID, DivineRPG.vetheanClawTemplate.itemID, 17, new ItemStack(DivineRPG.heliosisClaw));
         addRecipe(DivineRPG.arksianeLump.itemID, DivineRPG.vetheanClawTemplate.itemID, 21, new ItemStack(DivineRPG.arksianeClaw));
-        addRecipe(DivineRPG.teakerLump.itemID, DivineRPG.vetheanDiskTemplate.itemID, 4, new ItemStack(DivineRPG.teakerDisk));
-        addRecipe(DivineRPG.amthrimisLump.itemID, DivineRPG.vetheanDiskTemplate.itemID, 5, new ItemStack(DivineRPG.amthrimisDisk));
-        addRecipe(DivineRPG.darvenLump.itemID, DivineRPG.vetheanDiskTemplate.itemID, 6, new ItemStack(DivineRPG.darvenDisk));
-        addRecipe(DivineRPG.cermileLump.itemID, DivineRPG.vetheanDiskTemplate.itemID, 8, new ItemStack(DivineRPG.cermileDisk));
-        addRecipe(DivineRPG.pardimalLump.itemID, DivineRPG.vetheanDiskTemplate.itemID, 11, new ItemStack(DivineRPG.pardimalDisk));
-        addRecipe(DivineRPG.quadroticLump.itemID, DivineRPG.vetheanDiskTemplate.itemID, 13, new ItemStack(DivineRPG.quadroticDisk));
-        addRecipe(DivineRPG.karosLump.itemID, DivineRPG.vetheanDiskTemplate.itemID, 18, new ItemStack(DivineRPG.karosDisk));
-        addRecipe(DivineRPG.heliosisLump.itemID, DivineRPG.vetheanDiskTemplate.itemID, 20, new ItemStack(DivineRPG.heliosisDisk));
-        addRecipe(DivineRPG.arksianeLump.itemID, DivineRPG.vetheanDiskTemplate.itemID, 24, new ItemStack(DivineRPG.arksianeDisk));
         addRecipe(DivineRPG.teakerLump.itemID, DivineRPG.vetheanBackswordTemplate.itemID, 4, new ItemStack(DivineRPG.teakerSword));
         addRecipe(DivineRPG.amthrimisLump.itemID, DivineRPG.vetheanBackswordTemplate.itemID, 5, new ItemStack(DivineRPG.amthrimisSword));
         addRecipe(DivineRPG.darvenLump.itemID, DivineRPG.vetheanBackswordTemplate.itemID, 6, new ItemStack(DivineRPG.darvenSword));

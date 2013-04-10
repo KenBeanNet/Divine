@@ -157,7 +157,7 @@ public class EntityMandragora extends EntityMob implements IRangedAttackMob
         this.playSound("mob.RPG.Madragora", 1.0F, 2.0F);
         var2.setVelocity(0.0D, var2.motionY, 0.0D);
         this.worldObj.spawnEntityInWorld(var2);
-        System.out.println("Bounce Defaulting");
+        //System.out.println("Bounce Defaulting");
     }
 
     /**

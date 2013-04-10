@@ -64,12 +64,8 @@ public class EntityEndiku extends EntityMob
                     for (int var3 = (int)this.posY - 2; var3 < (int)this.posY + 2; ++var3)
                     {
                         boolean var4 = this.worldObj.getBlockMaterial(var1, (int)this.posY, var2) == Material.wood;
-                        System.out.println(var1 + " " + var3 + " " + var2);
-                        System.out.println(var4);
-
                         if (var4)
                         {
-                            System.out.println("Moving");
                             this.isEaten = true;
                             this.eatX = var1;
                             this.eatY = (int)this.posY;

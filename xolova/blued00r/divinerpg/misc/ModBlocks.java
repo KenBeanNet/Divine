@@ -16,7 +16,6 @@ import xolova.blued00r.divinerpg.entities.tileentities.TileEntityDemonFurnace;
 import xolova.blued00r.divinerpg.entities.tileentities.TileEntityDensosStatue;
 import xolova.blued00r.divinerpg.entities.tileentities.TileEntityDramixAlter;
 import xolova.blued00r.divinerpg.entities.tileentities.TileEntityDramixStatue;
-import xolova.blued00r.divinerpg.entities.tileentities.TileEntityDreamLamp;
 import xolova.blued00r.divinerpg.entities.tileentities.TileEntityExtractinator;
 import xolova.blued00r.divinerpg.entities.tileentities.TileEntityGlacideSpawner;
 import xolova.blued00r.divinerpg.entities.tileentities.TileEntityGreenlightFurnace;
@@ -405,8 +404,6 @@ public class ModBlocks
         GameRegistry.registerBlock(DivineRPG.darkEverstone, "darkEverstone");
         GameRegistry.registerBlock(DivineRPG.dreamgrass, "dreamgrass");
         GameRegistry.registerBlock(DivineRPG.dreamdirt, "dreamdirt");
-        GameRegistry.registerBlock(DivineRPG.dreamlampOn, "dreamlampOn");
-        GameRegistry.registerBlock(DivineRPG.dreamlamp, "dreamlamp");
         GameRegistry.registerBlock(DivineRPG.firecrystal, "firecrystal");
         GameRegistry.registerBlock(DivineRPG.hiveWall, "hiveWall");
         GameRegistry.registerBlock(DivineRPG.hyrewood, "hyrewood");
@@ -419,7 +416,6 @@ public class ModBlocks
         GameRegistry.registerBlock(DivineRPG.dreamwoodLeaves, "dreamwoodLeaves");
         GameRegistry.registerBlock(DivineRPG.infusionTable, "infusionTable");
         GameRegistry.registerTileEntity(TileEntityInfusionTable.class, "TeInfusionTable");
-        GameRegistry.registerTileEntity(TileEntityDreamLamp.class, "TeDreamLamp");
         GameRegistry.registerBlock(DivineRPG.purpleFire, "PurpleFire");
         GameRegistry.registerBlock(DivineRPG.karosCannon, "karosCannon");
         GameRegistry.registerBlock(DivineRPG.dreambricks, "dreambricks");

@@ -43,15 +43,6 @@ public class LanguageHelperVethean
         LanguageRegistry.addName(DivineRPG.karosSword, "Karos Warsword");
         LanguageRegistry.addName(DivineRPG.heliosisSword, "Heliosis Wrathsword");
         LanguageRegistry.addName(DivineRPG.arksianeSword, "Arksiane  Wrathsword");
-        LanguageRegistry.addName(DivineRPG.teakerDisk, "Teaker Disc");
-        LanguageRegistry.addName(DivineRPG.amthrimisDisk, "Amthirmis Disc");
-        LanguageRegistry.addName(DivineRPG.darvenDisk, "Darven Disc");
-        LanguageRegistry.addName(DivineRPG.cermileDisk, "Cermile Disc");
-        LanguageRegistry.addName(DivineRPG.pardimalDisk, "Pardimal WarDisc");
-        LanguageRegistry.addName(DivineRPG.quadroticDisk, "Quadrotic WarDisc");
-        LanguageRegistry.addName(DivineRPG.karosDisk, "Karos WarDisc");
-        LanguageRegistry.addName(DivineRPG.heliosisDisk, "Heliosis WrathDisc");
-        LanguageRegistry.addName(DivineRPG.arksianeDisk, "Arksiane  WrathDisc");
         LanguageRegistry.addName(DivineRPG.teakerStaff, "Teaker Staff");
         LanguageRegistry.addName(DivineRPG.amthrimisStaff, "Amthirmis Staff");
         LanguageRegistry.addName(DivineRPG.darvenStaff, "Darven Staff");
@@ -197,7 +188,6 @@ public class LanguageHelperVethean
         LanguageRegistry.addName(DivineRPG.everbright, "Everbright");
         LanguageRegistry.addName(DivineRPG.vetheanBowTemplate, "Bow Template");
         LanguageRegistry.addName(DivineRPG.vetheanBackswordTemplate, "Backsword Template");
-        LanguageRegistry.addName(DivineRPG.vetheanDiskTemplate, "Disc Template");
         LanguageRegistry.addName(DivineRPG.vetheanCannonTemplate, "Cannon Template");
         LanguageRegistry.addName(DivineRPG.vetheanClawTemplate, "Claw Template");
         LanguageRegistry.addName(DivineRPG.vetheanDegradedTemplate, "Degraded Template");

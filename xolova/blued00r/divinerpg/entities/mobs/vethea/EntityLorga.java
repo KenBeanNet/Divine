@@ -22,8 +22,13 @@ public class EntityLorga extends EntityMob
     private int waitTick;
     private int lifeTick;
     private int spawnTick;
-    public boolean canSpawnMinions;
+    public boolean canSpawnMinions = false;
 
+    public EntityLorga(World var1)
+    {
+    	this(var1, false);
+    }
+    
     public EntityLorga(World var1, boolean var2)
     {
         super(var1);
@@ -70,7 +75,7 @@ public class EntityLorga extends EntityMob
         if (this.lifeTick == -1 && this.spawnTick == 0 && this.canSpawnMinions)
         {
             this.spawnTick = 120;
-            EntityLorga var1 = new EntityLorga(this.worldObj, false);
+            EntityLorga var1 = new EntityLorga(this.worldObj, 10, false);
             var1.setLocationAndAngles(this.posX + 1.0D, this.posY, this.posZ + 1.0D, this.rotationYaw, this.rotationPitch);
             this.worldObj.spawnEntityInWorld(var1);
         }

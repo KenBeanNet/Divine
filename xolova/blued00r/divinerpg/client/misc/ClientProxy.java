@@ -844,15 +844,6 @@ public class ClientProxy extends CommonProxy
         RenderingRegistry.registerEntityRenderingHandler(EntityKazroticShot.class, new RenderBasicProjectile(8, "/DivineRPG/Entities.png"));
         RenderingRegistry.registerEntityRenderingHandler(EntityZoragonBomb.class, new RenderBasicProjectile(10, "/DivineRPG/Entities.png"));
         RenderingRegistry.registerEntityRenderingHandler(EntityDissimentShot.class, new RenderBasicProjectile(9, "/DivineRPG/Entities.png"));
-        RenderingRegistry.registerEntityRenderingHandler(EntityTeakerDisk.class, new RenderBasicProjectile(DivineRPG.teakerDisk.getIconFromDamage(0), "/Xolovon4.png"));
-        RenderingRegistry.registerEntityRenderingHandler(EntityAmthirmisDisk.class, new RenderBasicProjectile(DivineRPG.amthrimisDisk.getIconFromDamage(0), "/Xolovon4.png"));
-        RenderingRegistry.registerEntityRenderingHandler(EntityDarvenDisk.class, new RenderBasicProjectile(DivineRPG.darvenDisk.getIconFromDamage(0), "/Xolovon4.png"));
-        RenderingRegistry.registerEntityRenderingHandler(EntityCermileDisk.class, new RenderBasicProjectile(DivineRPG.cermileDisk.getIconFromDamage(0), "/Xolovon4.png"));
-        RenderingRegistry.registerEntityRenderingHandler(EntityPardimalDisk.class, new RenderBasicProjectile(DivineRPG.pardimalDisk.getIconFromDamage(0), "/Xolovon4.png"));
-        RenderingRegistry.registerEntityRenderingHandler(EntityQuadroticDisk.class, new RenderBasicProjectile(DivineRPG.quadroticDisk.getIconFromDamage(0), "/Xolovon4.png"));
-        RenderingRegistry.registerEntityRenderingHandler(EntityKarosDisk.class, new RenderBasicProjectile(DivineRPG.karosDisk.getIconFromDamage(0), "/Xolovon4.png"));
-        RenderingRegistry.registerEntityRenderingHandler(EntityHeliosisDisk.class, new RenderBasicProjectile(DivineRPG.heliosisDisk.getIconFromDamage(0), "/Xolovon4.png"));
-        RenderingRegistry.registerEntityRenderingHandler(EntityArksianeDisk.class, new RenderBasicProjectile(DivineRPG.arksianeDisk.getIconFromDamage(0), "/Xolovon4.png"));
         RenderingRegistry.registerEntityRenderingHandler(EntityVetheanArrow.class, new RenderBasicArrow("/item/teakerarrow.png"));
         RenderingRegistry.registerEntityRenderingHandler(EntityVetheanArrow2.class, new RenderBasicArrow("/item/darvenarrow.png"));
         RenderingRegistry.registerEntityRenderingHandler(EntityVetheanWarArrow.class, new RenderBasicArrow("/item/pardimalarrow.png"));

@@ -9,7 +9,6 @@ import xolova.blued00r.divinerpg.client.gui.GuiCaptainMerik;
 import xolova.blued00r.divinerpg.client.gui.GuiCondenser;
 import xolova.blued00r.divinerpg.client.gui.GuiDatticon;
 import xolova.blued00r.divinerpg.client.gui.GuiDemonFurnace;
-import xolova.blued00r.divinerpg.client.gui.GuiDreamLamp;
 import xolova.blued00r.divinerpg.client.gui.GuiExtractinator;
 import xolova.blued00r.divinerpg.client.gui.GuiGreenlightFurnace;
 import xolova.blued00r.divinerpg.client.gui.GuiHungerHungry;
@@ -30,7 +29,6 @@ import xolova.blued00r.divinerpg.containers.ContainerCoalStoneFurnace;
 import xolova.blued00r.divinerpg.containers.ContainerCondenser;
 import xolova.blued00r.divinerpg.containers.ContainerDatticon;
 import xolova.blued00r.divinerpg.containers.ContainerDemonFurnace;
-import xolova.blued00r.divinerpg.containers.ContainerDreamLamp;
 import xolova.blued00r.divinerpg.containers.ContainerExtractinator;
 import xolova.blued00r.divinerpg.containers.ContainerGreenlightFurnace;
 import xolova.blued00r.divinerpg.containers.ContainerHungerHungry;
@@ -58,7 +56,6 @@ import xolova.blued00r.divinerpg.entities.mobs.traders.EntityZelus;
 import xolova.blued00r.divinerpg.entities.tileentities.TileEntityCoalStoneFurnace;
 import xolova.blued00r.divinerpg.entities.tileentities.TileEntityCondenser;
 import xolova.blued00r.divinerpg.entities.tileentities.TileEntityDemonFurnace;
-import xolova.blued00r.divinerpg.entities.tileentities.TileEntityDreamLamp;
 import xolova.blued00r.divinerpg.entities.tileentities.TileEntityExtractinator;
 import xolova.blued00r.divinerpg.entities.tileentities.TileEntityGreenlightFurnace;
 import xolova.blued00r.divinerpg.entities.tileentities.TileEntityInfusionTable;
@@ -134,8 +131,8 @@ public class GuiHandler implements IGuiHandler
             case 18:
                 return new ContainerInfusionTable(var2.inventory, (TileEntityInfusionTable)var7);
 
-            case 19:
-                return new ContainerDreamLamp(var2.inventory, (TileEntityDreamLamp)var7);
+            //case 19:
+                //return new ContainerDreamLamp(var2.inventory, (TileEntityDreamLamp)var7);
 
             case 20:
                 return new ContainerHungerHungry(var2.inventory, ((EntityHungerHungry)var3.getEntityByID(var4)).leornaInv(), var3);
@@ -208,8 +205,8 @@ public class GuiHandler implements IGuiHandler
             case 18:
                 return new GuiInfusionTable(var2.inventory, (TileEntityInfusionTable)var7);
 
-            case 19:
-                return new GuiDreamLamp(var2.inventory, (TileEntityDreamLamp)var7);
+            //case 19:
+                //return new GuiDreamLamp(var2.inventory, (TileEntityDreamLamp)var7);
 
             case 20:
                 return new GuiHungerHungry(var2.inventory, ((EntityHungerHungry)var3.getEntityByID(var4)).leornaInv(), var3);

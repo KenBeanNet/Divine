@@ -25,6 +25,11 @@ public class EntityLorgaFlight extends EntityMob
     private int spawnTick;
     public boolean canSpawnMinions;
 
+    public EntityLorgaFlight(World var1)
+    {
+    	this (var1, true);
+    }
+    
     public EntityLorgaFlight(World var1, boolean var2)
     {
         super(var1);

@@ -400,7 +400,6 @@ public class EntityHungerHungry extends EntityVillager implements INpc, IMerchan
                 var2.add(new MerchantRecipe(new ItemStack(DivineRPG.dirtyPearls.itemID, 3, 0), new ItemStack(DivineRPG.dreamMelon.itemID, 4, 0)));
                 var2.add(new MerchantRecipe(new ItemStack(DivineRPG.dirtyPearls.itemID, 5, 0), new ItemStack(DivineRPG.dreamPie.itemID, 5, 0)));
                 var2.add(new MerchantRecipe(new ItemStack(DivineRPG.dirtyPearls.itemID, 10, 0), new ItemStack(DivineRPG.dreamCake.itemID, 8, 0)));
-                var2.add(new MerchantRecipe(new ItemStack(DivineRPG.dirtyPearls.itemID, 3, 0), new ItemStack(DivineRPG.vetheanDiskTemplate.itemID, 1, 0)));
                 var2.add(new MerchantRecipe(new ItemStack(DivineRPG.dirtyPearls.itemID, 3, 0), new ItemStack(DivineRPG.vetheanCannonTemplate.itemID, 1, 0)));
                 var2.add(new MerchantRecipe(new ItemStack(DivineRPG.dirtyPearls.itemID, 3, 0), new ItemStack(DivineRPG.vetheanBackswordTemplate.itemID, 1, 0)));
                 var2.add(new MerchantRecipe(new ItemStack(DivineRPG.dirtyPearls.itemID, 3, 0), new ItemStack(DivineRPG.vetheanHammerTemplate.itemID, 1, 0)));

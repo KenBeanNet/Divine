@@ -63,20 +63,20 @@ public class EntityVermsillion extends EntityTameable
     {
         if (this.getAttackTarget() != null && this.waitTick <= 0)
         {
-            System.out.println("charge start");
+            //System.out.println("charge start");
             this.waitTick = 50;
         }
         else if (this.waitTick == 1)
         {
             this.setAIMoveSpeed(this.moveSpeed);
             --this.waitTick;
-            System.out.println("Charge Defaulting");
+            //System.out.println("Charge Defaulting");
         }
         else if (this.waitTick == 10)
         {
             this.setAIMoveSpeed(0.0F);
             --this.waitTick;
-            System.out.println("Stopping");
+            //System.out.println("Stopping");
         }
         else if (this.waitTick > 0)
         {

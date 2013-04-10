@@ -19,7 +19,6 @@ public class Lamp2 extends WorldGenerator
         var1.setBlock(var3 + 1, var4 + 0, var5 + 1, DivineRPG.darkEverstone.blockID);
         var1.setBlock(var3 + 1, var4 + 0, var5 + 2, DivineRPG.darkEverstone.blockID);
         var1.setBlock(var3 + 1, var4 + 1, var5 + 1, DivineRPG.darkEverstone.blockID);
-        var1.setBlock(var3 + 1, var4 + 2, var5 + 1, DivineRPG.dreamlamp.blockID);
         var1.setBlock(var3 + 2, var4 + 0, var5 + 1, DivineRPG.darkEverstone.blockID);
         return true;
     }
