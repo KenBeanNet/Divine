@@ -70,7 +70,7 @@ public class EntityLorga extends EntityMob
         if (this.lifeTick == -1 && this.spawnTick == 0 && this.canSpawnMinions)
         {
             this.spawnTick = 120;
-            EntityLorga var1 = new EntityLorga(this.worldObj, 10, false);
+            EntityLorga var1 = new EntityLorga(this.worldObj, false);
             var1.setLocationAndAngles(this.posX + 1.0D, this.posY, this.posZ + 1.0D, this.rotationYaw, this.rotationPitch);
             this.worldObj.spawnEntityInWorld(var1);
         }

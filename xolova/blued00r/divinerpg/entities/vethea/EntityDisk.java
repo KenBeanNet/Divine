@@ -49,11 +49,11 @@ public class EntityDisk extends EntityThrowable
     public void onUpdate()
     {
         super.onUpdate();
-        //setVelocity(this.motionX / 0.99D, this.motionY / 0.99D, this.motionZ / 0.99D);
+        setVelocity(this.motionX / 0.99D, this.motionY / 0.99D, this.motionZ / 0.99D);
 
         if (this.counter == 0 && !this.rebound && this.thrower != null && this.collideCounter == 0)
         {
-            //setVelocity(-this.motionX, -this.motionY, -this.motionZ);
+            setVelocity(-this.motionX, -this.motionY, -this.motionZ);
             this.rebound = true;
             this.collideCounter = 5;
         }
@@ -64,6 +64,23 @@ public class EntityDisk extends EntityThrowable
         else if (this.collideCounter > 0)
         {
             --this.collideCounter;
+        }
+    }
+    
+    /**
+     * Sets the velocity to the args. Args: x, y, z
+     */
+    public void setVelocity(double par1, double par3, double par5)
+    {
+        this.motionX = par1;
+        this.motionY = par3;
+        this.motionZ = par5;
+
+        if (this.prevRotationPitch == 0.0F && this.prevRotationYaw == 0.0F)
+        {
+            float var7 = MathHelper.sqrt_double(par1 * par1 + par5 * par5);
+            this.prevRotationYaw = this.rotationYaw = (float)(Math.atan2(par1, par5) * 180.0D / Math.PI);
+            this.prevRotationPitch = this.rotationPitch = (float)(Math.atan2(par3, (double)var7) * 180.0D / Math.PI);
         }
     }
 
